@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.divInput {
+  padding-left: 10px;
+  width: 81rem; 
+  padding-top: 1rem;
+}
+
+.input {
+    width: 60rem;
+    height: 2rem;
+    border-radius: 8px;
+    border-color:#00bcd4; 
+    margin-left: 1rem;
+}
+
+.barra {
+  width: 1rem;
+  background-color: #00bcd4;
+  position:relative;
+  display: inline-block;
+
+}
+
+.despliegue{
+  width: auto;
+  height: auto;
+}
+
+.fondo{
+  background-color: #f2f2f2;
+}
+
+.btnGenerar {
+  width: 15rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-family: Comfortaa;
+  text-align: center;
+  cursor: pointer;
+  background-color: #00bcd4;
+  border-radius: 8px;
+  box-shadow: 0 9px #999;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.btnGenerar:hover {
+  background-color: #00bcd4;
+  color: white;
+  opacity: 1;
+}
+
+.btnGenerar:active {
+  background-color: #6dc066;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
