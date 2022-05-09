@@ -13,7 +13,7 @@ const state = {
 
 const crearDivs = (altura) =>{
   const divBarra = document.createElement('div');
-  divBarra.className = 'barra';
+  divBarra.className = 'barra_horizontal';
   const nAltura = altura.toString()+"px";
   divBarra.style.height = nAltura;
   return divBarra;
